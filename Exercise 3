@@ -1,0 +1,71 @@
+Create a file called echo-1.sh (use the touch command to create the file)
+$ touch echo-1.sh
+
+Create a script called variable-1.sh
+This script will create a variable called NAME
+Assign the value “John” to the variable and print out “Hello John”
+
+Write a script called myargs.sh
+That prints out the first argument passed into it
+
+Create a file called my_name.sh
+The script should first print out “What is your name? > ”
+(note the spaces !)
+The user then enters their name
+The scripts prints out “Hello <name>”
+
+Our script my_name.sh has a problem
+A user doesn’t have to enter a name at all !
+This would end up with our variable being an empty (null) string
+Make a new copy of this script and call it my_name-2.sh
+Bonus points, use the cp command to copy the file
+cp my_name.sh my_name-2.sh
+Copy the file my_name.sh and call it my_name-2.sh 
+
+Change the code in my_name-2.sh so that if a user enters an empty string it prints out
+“All right then. Keep your secrets.”
+Otherwise, if they enter a name the script should return “Hello <name>”
+Remember [ -z “$var” ] tests if $var is empty
+
+Make a copy of the file my_name-2.sh , call it my_name-3.sh
+Use cp !
+Change the code so that:	
+If there is no input it prints “All right then. Keep your secrets”
+If the name entered is “Lebowski” print out “Hello Dude”
+Otherwise just print out the name
+Remember [“$a” = “$b”] checks if two strings are the same
+
+Write a script called ls-1.sh while lists all the text files in a directory
+
+Write a script called allargs.sh which prints out each argument passed on a separate line
+
+Take the output from one program and pass it to another
+syntax:
+cmd_one | cmd_two
+The standard output for cmd_one will be passed into cmd_two
+Write two scripts, one which produces and output, and another which reads it in
+
+
+Create a file called overwrite.sh which writes (>) the string “Hello There” to a file called output.txt
+
+Create a file called append.sh which appends (>>) the string “Hello There” to a file called output.txt  
+
+write a program called combine-1.sh that combines a.txt and b.txt into a new file called c.txt 
+
+write a program called combine-1.sh that combines a.txt and b.txt into a new file called c.txt 
+
+Make a copy of combine-2.sh, call it combine-3.sh 
+Change the functionality so that if no file is passed in as a parameter it will use a default file called “tmp.txt”
+
+Copy combine-3.sh and call it combine-4.sh
+Change the functionality so that instead of a.txt and b.txt it will loop through and append all text files inside the current directory.
+Look back to last weeks notes to remember how to find all text files
+
+Create a file called search-1.sh that searches for the string “lamb” using a case insensitive search inside the a file called mary.txt
+
+create a file called search-2.sh
+The file should use grep to search a file called users.txt to list every user whos name starts with “M”
+
+Copy search-2 and call it search-2a
+Modify the code so that instead of searching users.txt, it will perform a serach on every text file in the current folder
+
