@@ -1,0 +1,15 @@
+Desktop
+Documents
+Downloads
+examples.desktop
+google-chrome-stable_current_amd64.deb
+Music
+Pictures
+Public
+seq1.sh
+seq1.sh.save
+seq1.sh.save.1
+snap
+Templates
+text
+Videos
